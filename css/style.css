@@ -1,8 +1,10 @@
 body {
 	width: 1900px;
 	height: 930px;
-	background: black;
+	background: #0b0b0b;
 }
+
+
 .banner {
 	margin-left: 768px;
 	margin-right: 780px;
@@ -10,10 +12,99 @@ body {
 }
 .left_img {
 	margin-bottom: 0px;
-	margin-left: 0px;
 	margin-top: 546px;
+	width: 165px;
+	float: left;
+	position: absolute;
+
+	
+	
 }
 
 .right_img {
+	margin-left: 1705px;
+	margin-bottom: 115px;
+	margin-top: -272px;
+	float: right;
+	position: absolute;
+}
+
+.center_image {
+	
+	margin-left: 235px;
+	margin-top: 280px;
+	margin-right: 400px;
+	float: left;
+	width: 1260px;
+	height: 645px;
+	position: absolute;
+	z-index: -1;
+	
+	
+}
+.coming {
+	color:	#dbe200;
+	font-size: 100px;
+	width: 880px;
+	height: 65px;
+	margin-top: 340px;
+	margin-left: 635px;
+	margin-bottom: 395px;
+	float: left;
+
+
+
+}
+
+.text {
+	color: #ffffff;
+	font-size: 20px;
+	width: 360px;
+	text-align: center;
+	line-height: 25px;
+	margin-left: 810px ;
+	margin-top: 550px;
+	position: absolute;
+	
+
+}
+.button {
+
+	text-transform: uppercase;
+	height: 50px;
+	width: 150px;
+	font-weight: bold;
+	background: #dbe200;
+}
+.name {
+	width: 276px ;
+	height: 45px;
+	
+}
+
+.email {
+	width: 335px;
+	height: 45px;
+
+}
+
+.input {
+	position: absolute;
+	margin-left: 600px;
+	width: 810px;
+	margin-top: 700px;
+
+}
+
+.line1 {
+	margin-top: 570px;
+	position: absolute;
+}
+
+.line2 {
+	margin-left: 1130px;
+	margin-top: 595px;
+	position: absolute;
+
 	
 }
