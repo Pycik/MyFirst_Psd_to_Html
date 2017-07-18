@@ -75,23 +75,35 @@ body {
 	width: 150px;
 	font-weight: bold;
 	background: #dbe200;
+	font-size: 18px;
 }
 .name {
 	width: 276px ;
 	height: 45px;
-	
+	background: #fff  url(../img/SUBSCRIBE.png) no-repeat;
+	font-weight: bold;
+	font-size: 18px;
+	background-position: 4px;
+	padding-left: 30px;
+	margin-right: 20px;
+
 }
 
 .email {
 	width: 335px;
 	height: 45px;
-
+	background: #fff url(../img/SUBSCRIBE.png) no-repeat;
+	background-position: 4px;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 30px;
+	margin-right: 20px;
 }
 
 .input {
 	position: absolute;
 	margin-left: 600px;
-	width: 810px;
+	width: 880px;
 	margin-top: 700px;
 
 }
@@ -108,3 +120,4 @@ body {
 
 	
 }
+
